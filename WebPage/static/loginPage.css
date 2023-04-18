@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: url("../images/pexels-lukas-574069.jpg") no-repeat;
+    background-size: cover;
+}
+
+.department {
+    width: 437px;
+    height: 500px;
+    top: 21%;
+    left: 19%;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    box-shadow: 0 0 20px 15px rgb(0 0 0);
+}
+
+.department:hover {
+    transition: 1s;
+    background: rgb(0 0 0 / 45%);
+    box-shadow: 0 0 17px 7px #009688;
+}
+
+h1{
+    font-size: 48px;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+    width: 500px;
+    position: absolute;
+    top: 9%;
+    left: 437px;
+    /*top: 41%;*/
+    /*right: 263px;*/
+}
+
+.department p {
+    font-size: 25px;
+    margin: 5px 2px;
+    padding: 19px 21px;
+    color: white;
+}
+
+.department input {
+    width: 77%;
+    height: 24px;
+    padding: 16px 15px;
+    margin: -6px 18px;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+    top: 15%;
+    left: 6%;
+    font-size: 16px;
+}
+
+.department select {
+    font-size: 17px;
+    width: 83%;
+    padding: 17px 10px;
+    margin: 0px 20px;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+}
+
+.department button {
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    font-size: 15px;
+
+    width: 137px;
+    padding: 15px 0px;
+    margin: 23px 151px;
+
+    background: transparent;
+
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.department button:hover {
+    background-color: #009688;
+    transition: 0.5s;
+}

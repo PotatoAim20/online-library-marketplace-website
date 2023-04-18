@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 23px;
+    margin: 120px 646px;
+    border-radius: 22px;
+    width: 650px;
+    background-color: hsl(218deg 50% 84%);
+}
+
+.info:hover {
+    box-shadow: 0 0 20px 20px hsl(210deg 100% 35%);
+    background-color: #7e2d554f;
+    transition: 0.5s;
+}
+
+.text h3 {
+    font-family: cursive;
+    font-size: 40px;
+    padding: 0px;
+    color: black;
+}
+
+.info img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left: 172px;
+}
+
+h5 {
+    font-family: "emoji";
+    font-size: 21px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: black;
+}
+
+p {
+    font-family: cursive;
+    font-size: 19px;
+    margin-top: 20px;
+    text-align: center;
+    color: black;
+}
+
+.heading {
+    font-size: 60px;
+    color: white;
+}
+
+.heading span {
+    font-style: italic;
+    font-size: 30px;
+}
